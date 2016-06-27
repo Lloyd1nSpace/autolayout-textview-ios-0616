@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E5C6B491D217348006EB024 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5C6B481D217348006EB024 /* main.m */; };
+		6E5C6B4C1D217348006EB024 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5C6B4B1D217348006EB024 /* AppDelegate.m */; };
+		6E5C6B4F1D217348006EB024 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5C6B4E1D217348006EB024 /* ViewController.m */; };
+		6E5C6B521D217348006EB024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E5C6B501D217348006EB024 /* Main.storyboard */; };
+		6E5C6B541D217348006EB024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E5C6B531D217348006EB024 /* Assets.xcassets */; };
+		6E5C6B571D217348006EB024 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E5C6B551D217348006EB024 /* LaunchScreen.storyboard */; };
+		6E5C6B621D217349006EB024 /* Autolayout_TextviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5C6B611D217349006EB024 /* Autolayout_TextviewTests.m */; };
+		6E5C6B6D1D217349006EB024 /* Autolayout_TextviewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5C6B6C1D217349006EB024 /* Autolayout_TextviewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E5C6B5E1D217349006EB024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E5C6B3C1D217348006EB024 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E5C6B431D217348006EB024;
+			remoteInfo = "Autolayout Textview";
+		};
+		6E5C6B691D217349006EB024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E5C6B3C1D217348006EB024 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E5C6B431D217348006EB024;
+			remoteInfo = "Autolayout Textview";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E5C6B441D217348006EB024 /* Autolayout Textview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Autolayout Textview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5C6B481D217348006EB024 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E5C6B4A1D217348006EB024 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E5C6B4B1D217348006EB024 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E5C6B4D1D217348006EB024 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6E5C6B4E1D217348006EB024 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6E5C6B511D217348006EB024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E5C6B531D217348006EB024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E5C6B561D217348006EB024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E5C6B581D217348006EB024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E5C6B5D1D217349006EB024 /* Autolayout TextviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Autolayout TextviewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5C6B611D217349006EB024 /* Autolayout_TextviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Autolayout_TextviewTests.m; sourceTree = "<group>"; };
+		6E5C6B631D217349006EB024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E5C6B681D217349006EB024 /* Autolayout TextviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Autolayout TextviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5C6B6C1D217349006EB024 /* Autolayout_TextviewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Autolayout_TextviewUITests.m; sourceTree = "<group>"; };
+		6E5C6B6E1D217349006EB024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E5C6B411D217348006EB024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5C6B5A1D217349006EB024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5C6B651D217349006EB024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E5C6B3B1D217348006EB024 = {
+			isa = PBXGroup;
+			children = (
+				6E5C6B461D217348006EB024 /* Autolayout Textview */,
+				6E5C6B601D217349006EB024 /* Autolayout TextviewTests */,
+				6E5C6B6B1D217349006EB024 /* Autolayout TextviewUITests */,
+				6E5C6B451D217348006EB024 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E5C6B451D217348006EB024 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E5C6B441D217348006EB024 /* Autolayout Textview.app */,
+				6E5C6B5D1D217349006EB024 /* Autolayout TextviewTests.xctest */,
+				6E5C6B681D217349006EB024 /* Autolayout TextviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E5C6B461D217348006EB024 /* Autolayout Textview */ = {
+			isa = PBXGroup;
+			children = (
+				6E5C6B4A1D217348006EB024 /* AppDelegate.h */,
+				6E5C6B4B1D217348006EB024 /* AppDelegate.m */,
+				6E5C6B4D1D217348006EB024 /* ViewController.h */,
+				6E5C6B4E1D217348006EB024 /* ViewController.m */,
+				6E5C6B501D217348006EB024 /* Main.storyboard */,
+				6E5C6B531D217348006EB024 /* Assets.xcassets */,
+				6E5C6B551D217348006EB024 /* LaunchScreen.storyboard */,
+				6E5C6B581D217348006EB024 /* Info.plist */,
+				6E5C6B471D217348006EB024 /* Supporting Files */,
+			);
+			path = "Autolayout Textview";
+			sourceTree = "<group>";
+		};
+		6E5C6B471D217348006EB024 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E5C6B481D217348006EB024 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E5C6B601D217349006EB024 /* Autolayout TextviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E5C6B611D217349006EB024 /* Autolayout_TextviewTests.m */,
+				6E5C6B631D217349006EB024 /* Info.plist */,
+			);
+			path = "Autolayout TextviewTests";
+			sourceTree = "<group>";
+		};
+		6E5C6B6B1D217349006EB024 /* Autolayout TextviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E5C6B6C1D217349006EB024 /* Autolayout_TextviewUITests.m */,
+				6E5C6B6E1D217349006EB024 /* Info.plist */,
+			);
+			path = "Autolayout TextviewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E5C6B431D217348006EB024 /* Autolayout Textview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E5C6B711D217349006EB024 /* Build configuration list for PBXNativeTarget "Autolayout Textview" */;
+			buildPhases = (
+				6E5C6B401D217348006EB024 /* Sources */,
+				6E5C6B411D217348006EB024 /* Frameworks */,
+				6E5C6B421D217348006EB024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Autolayout Textview";
+			productName = "Autolayout Textview";
+			productReference = 6E5C6B441D217348006EB024 /* Autolayout Textview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E5C6B5C1D217349006EB024 /* Autolayout TextviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E5C6B741D217349006EB024 /* Build configuration list for PBXNativeTarget "Autolayout TextviewTests" */;
+			buildPhases = (
+				6E5C6B591D217349006EB024 /* Sources */,
+				6E5C6B5A1D217349006EB024 /* Frameworks */,
+				6E5C6B5B1D217349006EB024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E5C6B5F1D217349006EB024 /* PBXTargetDependency */,
+			);
+			name = "Autolayout TextviewTests";
+			productName = "Autolayout TextviewTests";
+			productReference = 6E5C6B5D1D217349006EB024 /* Autolayout TextviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E5C6B671D217349006EB024 /* Autolayout TextviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E5C6B771D217349006EB024 /* Build configuration list for PBXNativeTarget "Autolayout TextviewUITests" */;
+			buildPhases = (
+				6E5C6B641D217349006EB024 /* Sources */,
+				6E5C6B651D217349006EB024 /* Frameworks */,
+				6E5C6B661D217349006EB024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E5C6B6A1D217349006EB024 /* PBXTargetDependency */,
+			);
+			name = "Autolayout TextviewUITests";
+			productName = "Autolayout TextviewUITests";
+			productReference = 6E5C6B681D217349006EB024 /* Autolayout TextviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E5C6B3C1D217348006EB024 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Flatiron School";
+				TargetAttributes = {
+					6E5C6B431D217348006EB024 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					6E5C6B5C1D217349006EB024 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6E5C6B431D217348006EB024;
+					};
+					6E5C6B671D217349006EB024 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6E5C6B431D217348006EB024;
+					};
+				};
+			};
+			buildConfigurationList = 6E5C6B3F1D217348006EB024 /* Build configuration list for PBXProject "Autolayout Textview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E5C6B3B1D217348006EB024;
+			productRefGroup = 6E5C6B451D217348006EB024 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E5C6B431D217348006EB024 /* Autolayout Textview */,
+				6E5C6B5C1D217349006EB024 /* Autolayout TextviewTests */,
+				6E5C6B671D217349006EB024 /* Autolayout TextviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E5C6B421D217348006EB024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5C6B571D217348006EB024 /* LaunchScreen.storyboard in Resources */,
+				6E5C6B541D217348006EB024 /* Assets.xcassets in Resources */,
+				6E5C6B521D217348006EB024 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5C6B5B1D217349006EB024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5C6B661D217349006EB024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E5C6B401D217348006EB024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5C6B4F1D217348006EB024 /* ViewController.m in Sources */,
+				6E5C6B4C1D217348006EB024 /* AppDelegate.m in Sources */,
+				6E5C6B491D217348006EB024 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5C6B591D217349006EB024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5C6B621D217349006EB024 /* Autolayout_TextviewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5C6B641D217349006EB024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5C6B6D1D217349006EB024 /* Autolayout_TextviewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E5C6B5F1D217349006EB024 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E5C6B431D217348006EB024 /* Autolayout Textview */;
+			targetProxy = 6E5C6B5E1D217349006EB024 /* PBXContainerItemProxy */;
+		};
+		6E5C6B6A1D217349006EB024 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E5C6B431D217348006EB024 /* Autolayout Textview */;
+			targetProxy = 6E5C6B691D217349006EB024 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E5C6B501D217348006EB024 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E5C6B511D217348006EB024 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E5C6B551D217348006EB024 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E5C6B561D217348006EB024 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E5C6B6F1D217349006EB024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E5C6B701D217349006EB024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E5C6B721D217349006EB024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Autolayout Textview/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.Autolayout-Textview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6E5C6B731D217349006EB024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Autolayout Textview/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.Autolayout-Textview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6E5C6B751D217349006EB024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Autolayout TextviewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.Autolayout-TextviewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Autolayout Textview.app/Autolayout Textview";
+			};
+			name = Debug;
+		};
+		6E5C6B761D217349006EB024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Autolayout TextviewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.Autolayout-TextviewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Autolayout Textview.app/Autolayout Textview";
+			};
+			name = Release;
+		};
+		6E5C6B781D217349006EB024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Autolayout TextviewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.Autolayout-TextviewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Autolayout Textview";
+			};
+			name = Debug;
+		};
+		6E5C6B791D217349006EB024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Autolayout TextviewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.Autolayout-TextviewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Autolayout Textview";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E5C6B3F1D217348006EB024 /* Build configuration list for PBXProject "Autolayout Textview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5C6B6F1D217349006EB024 /* Debug */,
+				6E5C6B701D217349006EB024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E5C6B711D217349006EB024 /* Build configuration list for PBXNativeTarget "Autolayout Textview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5C6B721D217349006EB024 /* Debug */,
+				6E5C6B731D217349006EB024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6E5C6B741D217349006EB024 /* Build configuration list for PBXNativeTarget "Autolayout TextviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5C6B751D217349006EB024 /* Debug */,
+				6E5C6B761D217349006EB024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6E5C6B771D217349006EB024 /* Build configuration list for PBXNativeTarget "Autolayout TextviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5C6B781D217349006EB024 /* Debug */,
+				6E5C6B791D217349006EB024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E5C6B3C1D217348006EB024 /* Project object */;
+}
